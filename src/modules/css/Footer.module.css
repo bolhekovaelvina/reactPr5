@@ -1,0 +1,42 @@
+.footer {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    background: #232323;
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    position: relative;
+}
+
+
+@media (max-width: 1350px) {
+    .container {
+    width: 95%;
+    }
+}
+
+nav {
+    ul {
+        display: flex;
+        gap: 70px;
+        li {
+            a {
+                color: white;
+                align-items: center;
+                cursor: pointer;
+            }
+            &.active {
+                a {
+                    color: #0009EA; 
+                }
+            }
+        }
+    }
+}

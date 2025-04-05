@@ -1,0 +1,47 @@
+body {
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  position: relative;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%)
+  translateY(-50%);
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
